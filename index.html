@@ -1,71 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fuck the World</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./basic.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Helpinghand</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link href="./assets/css/style.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <header class="header-area overlay">
-        <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container">
-          <a href="#" class="navbar-brand">Donate for Good</a>
-          
-          <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-            <span class="menu-icon-bar"></span>
-            <span class="menu-icon-bar"></span>
-            <span class="menu-icon-bar"></span>
-          </button>
-          
-          <div id="main-nav" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li><a href="#" class="nav-item nav-link active">Home</a></li>
-              <li><a href="#" class="nav-item nav-link">About Us</a></li>
-              <li class="dropdown">
-                <a href="#" class="nav-item nav-link" data-toggle="dropdown">Services</a>
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Dropdown Item 1</a>
-                  <a href="#" class="dropdown-item">Dropdown Item 2</a>
-                  <a href="#" class="dropdown-item">Dropdown Item 3</a>
-                </div>
-              </li>
-              <li><a href="#" class="nav-item nav-link">Contact Us</a></li>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">HelpingHand</a></h1>
+
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="#hero">Home</a></li>
+          <li><a href="#about">About Us </a></li>
+          <li><a href="#footer">Contact Us</a></li>
+
+          <li class="dropdown"><a href="#"><span>Connect with Us</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://www.facebook.com/thesparksfoundation.info">Facebook</a></li>
+              <li><a href="https://www.linkedin.com/company/the-sparks-foundation/">Linkedin</a></li>
+              <li><a href="https://twitter.com/tsfsingapore">Tweeter</a></li>
+              <li><a href="https://instagram.com/thesparksfoundation.info">Instagram</a></li>
             </ul>
-          </div>
+
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        <div class="razor">
+          <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HU6lnpCx0XQR6p"
+              async> </script>
+          </form>
         </div>
       </nav>
-      
-      <div class="banner">
-        <div class="container">
-          
-          <p>“It's not how much we give but how much love we put into giving.”
-            <h1> - Mother Theresa</h1></p>
-          <a href="#content" class="button button-primary">Donate</a>
+
+    </div>
+  </header>
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Donate Today,<br>For Better Tomorrow.</h1>
+      <h2>It's not how much we give but how much love we put into giving.</h2>
+      <br>
+      <form>
+        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HU6lnpCx0XQR6p"
+          async> </script>
+      </form>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="./assets/img/smile1o1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>What is HelpingHand ? Check out our list of Objectives below:</h3>
+            <p class="fst-italic">
+              When you choose to give, you may not realize that donating to charity will
+              do more than just help your favourite cause, giving can also provide you with
+              many personal benefits. Whether you choose to donate to charities supporting people
+              living in poverty, advocating to protect the environment, helping animals in need,
+              or addressing other global or local problems, charities need your help to continue their selfless
+              initiatives,
+              but giving can feel just as good as receiving!
+              And HelpingHand is the foundation that helps in acheiving all the these Objectives:
+            <ul>
+              <li><i class="bi bi-check-circle"></i>There are financial benefits when you donate to charity.</li>
+              <li><i class="bi bi-check-circle"></i> Teach kids the importance of giving.</li>
+              <li><i class="bi bi-check-circle"></i> Giving promotes feelings of happiness.</li>
+              <li><i class="bi bi-check-circle"></i>Donating gives you the opportunity to show gratitude.</li>
+            </ul>
+            <p>
+              Helping others feels good. When you donate to a charity that is important to you,
+              you not only help them continue their vital work, you’re also
+              improving your emotional wellbeing, a win-win situation!
+            </p>
+
+          </div>
         </div>
+
       </div>
-    </header>
-    
-    <main>
-      <section id="content" class="content">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta nulla. </p>
+    </section>
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="5431" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Donations</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Children education secured</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="90000" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Meals Dilivered</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>COVID-19 Vaccination done</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class=" d-flex justify-content-between ">
+            <div class="why-us" data-aos="fade-left" data-aos-delay="100">
+              <img src="./assets/img/smile.jpg" class="img2" alt="">
             </div>
-            <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta nulla. </p>
-            </div>
-            <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta nulla. </p>
+            <div class="content">
+              <h3>Why Donate?</h3>
+              <p>
+                Donating to the causes you care about not only benefits the charities themselves,
+                it can be deeply rewarding for you too. Millions of people give to charity on a
+                regular basis to support causes they believe in, as well as for the positive effect
+                it has on their own lives.
+              </p>
+              <div class="text-center">
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+    <section id="popular-courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Our doing</h2>
+          <p>what have we Achived</p>
+        </div>
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="./assets/img/Beach CleanUp.jpg" class="Beach" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Social Work</h4>
+                  <strong>
+                    <p class="text">100+ volunteers</p>
+                  </strong>
+                </div>
+
+                <h3><a href=#>Beach cleaning drive</a></h3>
+                <p>We cleaned the beach with the help of our powerfull community and cleaned almost 2 Tons of plastic and
+                  other waste. The litter not only spoils the scenery but is harmful to the natural habitat, including people and wildlife. Additionally, the debris thrown into marine bodies can last a very long time, affecting marine life for years to come.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="./assets/img/tanwi_kaushik.jpg" class="" alt="">
+                    <span>Tanwi</span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;105
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;50
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="./assets/img/studycamp.jpg" class="img-fluid" alt="...">
+              <div class="course-content"> <br>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Study Camp</h4>
+                  <strong>
+                    <p class="text">250+ Students</p>
+                  </strong>
+                </div>
+
+                <h3><a href="course-details.html">Study Camp for Unprivileged </a></h3>
+                <p>If you're not in the know, a study camp is basically a week long camp where year 12 students go and
+                  have designated blocks of study each day - usually supervised by tutors - and then blocks of non-study
+                  activities as well.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="./assets/img/tanwi_kaushik.jpg" class="img-fluid" alt="">
+                    <span>Tanwi</span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;35
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;42
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="./assets/img/Blood.webp" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Blood Drive</h4>
+                  <strong>
+                    <p class="text">100+ Blood Donators</p>
+                  </strong>
+                </div>
+
+                <h3><a href="#">Blood Donation Camp</a></h3>
+                <p>A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or
+                  made into biopharmaceutical medications by a process called fractionation.</p>
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="./assets/img/priyesh_kumar.jpg" class="img-fluid" alt="">
+                    <span>Priyesh</span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;20
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;85
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="trainers" class="trainers">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="./assets/img/priyesh_kumar.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Priyesh Kumar</h4>
+                <span>Founder</span>
+                <p>
+                  Priyesh is a technology enthusiast at his core. He is known for architecting, designing and developing
+                  large scale applications,
+                  and ensure security, scalability, and maintainability. He does a lot of volunteer work and mentorship;
+                  helping learners know more about latest technologies, methodologies and innovations.
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="./assets/img/tanwi_kaushik.jpg" class="Tanwi" alt=""><br><br><br>
+              <div class="member-content">
+                <h4>Tanwi Kaushik</h4>
+                <span>Co-Founder and Executive Manager</span>
+                <p>
+                  Tanwi is a social entrepreneur and researcher. She is a
+                  double masters in Life Sciences from Cornell University (USA) and NUS (Singapore)
+                  with 6 years of experience in research and development.
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>HelpingHand</h3>
+            <p>
+              14, Suhash Nagar <br>
+              Versova, Mumbai-400058<br>
+              India <br><br>
+              <strong>Phone:</strong> +91 65-8402-8590<br>
+              <strong>Email:</strong> info@thesparksfoundation.sg<br>
+            </p>
+          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <br>
+              <div class="Send"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+
+          <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+              <div class="copyright">
+                &copy; Copyright <strong><span>HelpingHand</span></strong>. All Rights Reserved
+              </div>
+              <div class="credits">
+
+                Designed by <a href="#">Anas Imam Shaikh</a>
+              </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+              <a target="_blank" href="https://twitter.com/tsfsingapore" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a target="_blank" href="https://www.facebook.com/thesparksfoundation.info" class="facebook"><i
+                  class="bx bxl-facebook"></i></a>
+              <a target="_blank" href="https://instagram.com/thesparksfoundation.info" class="instagram"><i
+                  class="bx bxl-instagram"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/the-sparks-foundation/" class="linkedin"><i
+                  class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
